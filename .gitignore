@@ -1,0 +1,37 @@
+# --- Binaires et artefacts de build
+/build/
+**/build/
+.gradle/
+local.properties
+
+# --- Android/IntelliJ
+.idea/
+*.iml
+.cxx/
+
+# --- Sorties
+*.apk
+*.aar
+*.aab
+*.ap_
+
+# --- Java/Kotlin
+*.class
+*.dex
+
+# --- Keystores et secrets
+*.jks
+*.keystore
+keystore.properties
+**/service-account*.json
+
+# --- Dumps mémoire (ex: java_pidxxxx.hprof)
+*.hprof
+
+# --- OS
+.DS_Store
+Thumbs.db
+
+# --- (Optionnel) Google Services
+# Si vous NE VOULEZ PAS publier 'google-services.json', décommentez la ligne suivante :
+# **/google-services.json
